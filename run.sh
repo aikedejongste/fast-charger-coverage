@@ -19,7 +19,7 @@ percentage=$(awk "BEGIN { printf \"%.1f\", ($fc_count / $total_count) * 100 }")
 current_date=$(date +"%Y-%m-%d")
 
 # Create an HTML file
-cat > output/fast-charger-coverage.html << EOF
+cat > output/index.html << EOF
 <!DOCTYPE html>
 <html lang="en">
 <head>
