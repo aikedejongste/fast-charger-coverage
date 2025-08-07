@@ -138,4 +138,4 @@ cat > output/fast-charger-coverage.html << EOF
 </html>
 EOF
 
-echo "Report generated at output/fast-charger-coverage.html"
+echo "Report generated at output/index.html"
